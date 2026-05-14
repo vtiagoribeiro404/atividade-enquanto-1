@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    
+inteiro senha 
+
+   escreva("Digite a senha: ")
+   leia(senha)
+
+   enquanto (senha != 1234) {
+      escreva("Senha incorreta. Tente novamente.")
+      escreva("\nDigite a senha: ")
+      leia(senha)
+   }
+
+   escreva("Acesso permitido.")
+
+
+
+  }
+}
