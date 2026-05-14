@@ -7,7 +7,7 @@ inteiro numero, soma=0, contador=0
       escreva("\nDigite um número: ")
       leia(numero)
       soma = soma + numero
-      contador = contador + 0
+      contador = contador + 1
        escreva("A soma total é: ", soma)
   }
 
