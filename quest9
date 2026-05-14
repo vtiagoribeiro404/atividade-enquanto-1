@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    
+
+
+  inteiro numero, contador = 1, qtdPares = 0
+
+
+   enquanto (contador <= 10){
+      escreva("Digite um número: ")
+      leia(numero)
+
+      se (numero / 2 ){
+         qtdPares = qtdPares + 1
+      }
+
+      contador = contador + 1
+
+   escreva("Quantidade de números pares: ", qtdPares)
+
+}
+  }
+}
